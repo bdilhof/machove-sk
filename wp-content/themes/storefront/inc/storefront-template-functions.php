@@ -154,11 +154,6 @@ if ( ! function_exists( 'storefront_credit' ) ) {
 		?>
 		<div class="site-info">
 			<?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_bloginfo( 'name' ) . ' ' . gmdate( 'Y' ) ) ); ?>
-
-			<?php if ( ! empty( $links_output ) ) { ?>
-				<br />
-				<?php echo wp_kses_post( $links_output ); ?>
-			<?php } ?>
 		</div><!-- .site-info -->
 		<?php
 	}
