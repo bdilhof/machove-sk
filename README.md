@@ -1,1 +1,0 @@
-# machove-sk
