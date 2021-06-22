@@ -14,7 +14,7 @@ jobs:
         server: 46.229.230.157
         username: es032700
         password: ${{ secrets.ftp_password }}
-        port: 990
-        protocol: ftps
+        port: 21
+        protocol: ftp
         server-dir: _sub/machove/
         dry-run: true
