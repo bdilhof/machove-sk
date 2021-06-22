@@ -15,6 +15,6 @@ jobs:
         username: es032700
         password: ${{ secrets.ftp_password }}
         port: 990
-        server-dir: _sub/machove
+        server-dir: _sub/machove/
         state-name: deploy.json
         dry-run: true
