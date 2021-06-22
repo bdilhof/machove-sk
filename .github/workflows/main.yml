@@ -1,0 +1,21 @@
+- name: FTP Deploy
+  uses: SamKirkland/FTP-Deploy-Action@4.0.0
+  with:
+    server: 46.229.230.157
+    username: es032700
+    password: k2kPOWwq_
+    port: 990
+    protocol: ftps
+    local-dir: # optional
+    server-dir: /_sub/machove
+    state-name: # optional
+    # Prints which modifications will be made with current config options, but doesnt actually make any changes
+    dry-run: true
+    # Deletes ALL contents of server-dir, even items in excluded with exclude argument
+    dangerous-clean-slate: # optional
+    # An array of glob patterns, these files will not be included in the publish/delete process
+    exclude: # optional
+    # How verbose should the information be - warn, info, debug
+    log-level: # optional
+    # strict or loose
+    security: # optional
